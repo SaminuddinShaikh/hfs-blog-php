@@ -72,10 +72,10 @@ $result2 = $con->query($sql2);
     <meta name="googlebot" content="index, follow ">
     <meta name="bingbot" content="index, follow ">
     <meta name="YahooSeeker" content="Index,Follow" />
-    <link rel="canonical" href="https://www.hfs.in/"/>
+    <link rel="canonical" href="https://hfs.in/"/>
     <link rel="alternate" href="https://www.hfs.in/" hreflang="en-in"/>
 	<meta property="og:image" content="https://hfs.in/images/uploads/logo3.png"/>
-	<meta property="og:url" content="https://www.hfs.in" />
+	<meta property="og:url" content="https://hfs.in" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Small Business Loans | Hiranandani Financial Services | HFS" />
     <meta property="og:description" content="Hassle Free Business loans from HFS. Quick Disbursal, Easy Documentation. No Guarantor Required. Low Interest Rate. Apply online." />
@@ -83,7 +83,7 @@ $result2 = $con->query($sql2);
 	<link href="images/favicon.ico" rel="icon" type="image/ico" />
 	<link href="https://hfs.in/pre1/jpreloader.css" media="screen" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@9.3.17/dist/sweetalert2.min.css">
-   <link rel="stylesheet" href="/css/ticker.css">
+   <!-- <link rel="stylesheet" href="/css/ticker.css">	-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
@@ -148,9 +148,8 @@ qp('track', 'ViewContent');
   "name" : "HFS - Business Loan, SME Loan, MSME Loan, Collateral Free Business Loan",
   "logo" : "https://hfs.in/images/uploads/logo3.png",
   "articleSection" : "HFS is a new age NBFC, focused on supporting the growth of Micro and Small enterprises in India. Our aim is to be a partner in their progress by providing customised financial solutions to this under-served segment in a seamless and transparent manner.",
-  "url" : "https://www.hfs.in/index.php"
+  "url" : "https://hfs.in/index.php"
 }
-
 </script>
 <style>
 .gptw {
@@ -162,13 +161,6 @@ margin: 0px 10px 50px 0px;
 }
 
 </style>
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "ed3t55dyis");
-</script>
 </head>
 <body>
 
@@ -195,7 +187,7 @@ margin: 0px 10px 50px 0px;
 <section>
 <div class="home-banner head_mrgin">
 	<ul class="slider">
-	    	      <?php //if ($result->num_rows > 0) {
+	    	      <?php //if ($result->num_rows > 0) //{
                     // output data of each row
                     //while($row = $result->fetch_assoc()) {
                         //echo '<li>
@@ -229,27 +221,27 @@ margin: 0px 10px 50px 0px;
 	    // } //else {
 			//	                    echo "";
 			//	                }
-		?>
+		//?>
 
 		<li>
-			<img src="images\hm-banner\Web-Banner-Get-a-loan-A.jpg" alt="HFCL Home banner" draggable="false" class="desk"/>
-			<img src="images\hm-banner\Web-Banner-Get-a-loan-Mob-Banner.jpg" alt="HFCL Home banner" draggable="false" class="mob"/>
+			<img src="images\uploads\home\sliders\Website_Home_Page_Banner.jpg" alt="HFCL Home banner" draggable="false" class="desk"/>
+			<img src="images\uploads\home\sliders\Website_Home_Page_Banner_Change_-_Mobile_1.jpg" alt="HFCL Home banner" draggable="false" class="mob"/>-->
 			<div class="caption">
 				<div class="slide-txt firstslide">
-					<h2>Take a leap for<br>your business needs!</h2>
+					<h2>NO BUSINESS IS<br>SMALL BUSINESS</h2>
 					<h4>STEP FORWARD <span>>></span></h4>
-					<a href="https://applynow.hfs.in" target="_blank">Apply Now</a><br>
+					<a href="https://applynow.hfs.in" class="book_our_visit">Apply Now</a><br>
 					<!-- <p>Your Time, Your Place</p> -->
 				</div>
 			</div>
 			<div class="caption_mob">
 				<div class="continer1">
 					<div class="left_cap">
-						<h2>Take a leap for<br>your business needs!</h2>
+						<h2>NO BUSINESS IS<br>SMALL BUSINESS</h2>
 						<h4>STEP FORWARD <span>>></span></h4>
 					</div>
 					<div class="right_cap">	
-						<a href="https://applynow.hfs.in" target="_blank">Apply Now</a><br>
+						<a href="https://applynow.hfs.in" class="book_our_visit">Apply Now</a><br>
 						<!-- <p>Your Time, Your Place</p> -->
 					</div>
 				</div>
@@ -257,13 +249,13 @@ margin: 0px 10px 50px 0px;
 		</li>
 		
 		<li>
-			<img src="images\hm-banner\Web-Banner-Hassle-free-Loan-A.jpg" alt="HFCL Home banner" draggable="false" class="desk"/>
-			<img src="images\hm-banner\Mob-Banner-Hassle-free-Loan.jpg" alt="HFCL Home banner" draggable="false" class="mob"/>
+			<img src="images\uploads\home\sliders\Digital_Banner_3.jpg" alt="HFCL Home banner" draggable="false" class="desk"/>
+			<img src="images\uploads\home\sliders\Website_Home_Page_Banner_Change_-_Mobile_2.jpg" alt="HFCL Home banner" draggable="false" class="mob"/>
 			<div class="caption">
 				<div class="slide-txt firstslide">
 					<h2>Passion to<br>potential<br>is just one step </h2>
 					<h4>STEP FORWARD <span>>></span></h4>
-					<a href="https://applynow.hfs.in" target="_blank">Apply Now</a><br>
+					<a href="https://applynow.hfs.in" class="book_our_visit">Apply Now</a><br>
 		<!--			<p>Your Time, Your Place</p>-->
 				</div>
 			</div>
@@ -274,20 +266,20 @@ margin: 0px 10px 50px 0px;
 						<h4>STEP FORWARD <span>>></span></h4>
 					</div>
 					<div class="right_cap">	
-					<a href="https://applynow.hfs.in" target="_blank">Apply Now</a><br>
+					<a href="https://applynow.hfs.in" class="book_our_visit">Apply Now</a><br>
 		<!--				<p>Your Time, Your Place</p>-->
 					</div>
 				</div>
 			</div>
 		</li>
 		<li>
-			<img src="images\hm-banner\60-State-7-Branches-Web-Banner.jpg" alt="HFCL Home banner" draggable="false" class="desk"/>
-			<img src="images\hm-banner\60-State-7-Branches-Mobile-Banner.jpg" alt="HFCL Home banner" draggable="false" class="mob"/>
-			<!--<div class="caption">
+			<img src="images\uploads\home\sliders\Rajasthan.jpg" alt="HFCL Home banner" draggable="false" class="desk"/>
+			<img src="images\uploads\home\sliders\raj_mob.jpg" alt="HFCL Home banner" draggable="false" class="mob"/>
+			<div class="caption">
 				<div class="slide-txt firstslide">
 					<h2>YET ANOTHER</h2>
 					<h4>STEP FORWARD <span>>></span></h4>
-					<a href="https://applynow.hfs.in" class="book_our_visit">Apply Now</a><br>-->
+					<a href="https://applynow.hfs.in" class="book_our_visit">Apply Now</a><br>
 		<!--			<p>Your Time, Your Place</p>-->
 				</div>
 			</div>
@@ -298,13 +290,13 @@ margin: 0px 10px 50px 0px;
 						<h4>STEP FORWARD <span>>></span></h4>
 					</div>
 					<div class="right_cap">	
-					<a href="https://applynow.hfs.in" target="_blank">Apply Now</a><br>
+					<a href="https://applynow.hfs.in" class="book_our_visit">Apply Now</a><br>
 		<!--				<p>Your Time, Your Place</p>-->
 					</div>
 				</div>
 			</div>
 		</li>
-<!--		<li>
+		<li>
 			<img src="images\uploads\home\sliders\deskbanner.jpg" alt="HFCL Home banner" draggable="false" class="desk"/>
 			<img src="images\uploads\home\sliders\32BranchesMob1.jpg" alt="HFCL Home banner" draggable="false" class="mob"/>
 			<div class="caption">
@@ -312,7 +304,7 @@ margin: 0px 10px 50px 0px;
 					<h2>WE ARE GROWING</h2>
 					<h4>STEP FORWARD <span>>></span></h4>
 					<a href="https://hfs.in/locate-us.php" target="_blank">FIND LOCATION</a><br>
-		<!--			<p>Your Time, Your Place</p>--
+		<!--			<p>Your Time, Your Place</p>-->
 				</div>
 			</div>
 			<div class="caption_mob">
@@ -322,12 +314,12 @@ margin: 0px 10px 50px 0px;
 						<h4>STEP FORWARD <span>>></span></h4>
 					</div>
 					<div class="right_cap">	
-					<a href="https://hfs.in/locate-us.php" target="_blank">FIND LOCATION</a><br>
-		<!-				<p>Your Time, Your Place</p>--
+					<a href="https://hfs.in/locate-us.php" target="_blank">Apply Now</a><br>
+		<!--				<p>Your Time, Your Place</p>-->
 					</div>
 				</div>
 			</div>
-		</li>-->
+		</li>
 	</ul>
 </div>
 </section>
@@ -644,10 +636,10 @@ margin: 0px 10px 50px 0px;
     });
 </script>
 <script>$('#index').addClass('active');</script>
-<div class="ticker-wrap">
+<!--<div class="ticker-wrap">
 <div class="ticker">
-<div class="ticker__item"> <a href="https://hfs.in/enach-reg"style="padding:150px;text-decoration:none; color:#fff;" target="_blank">For eNACH Registration, click here</a>&nbsp;<a href="http://hfs.in/pdf/Emergency_Credit_Line_Guarantee_Scheme_(ECLGS).pdf" rel="noopener noreferrer" target="_blank" style="padding:175px;text-decoration:none; color:#fff;">Emergency Credit Line Guarantee Scheme (ECLGS). Click here. </a>           </div>
+<div class="ticker__item"> <a href="http://hfs.in/pdf/EMI_Moratorium_Facility.pdf"rel="noopener noreferrer" target="_blank" style="text-decoration:none; color:#fff;">Details of EMI Moratorium Facility. Click here. </a>  </div>
 </div>
-</div>
+</div> -->
 </body>
 </html>

@@ -65,31 +65,58 @@ $result2 = $con->query($sql2);
     
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title><?=$p_title?></title>
-	<meta name="description" content="Hassle Free Business loans from HFS. Quick Disbursal, Easy Documentation. No Guarantor Required. Low Interest Rate. Apply online." />
+	<meta name="description" content="Hassle Free Business loans from HFS. Quick Disbursal, Easy Documentation. No Guarantor Required. Low Interest Rate" />
 	<meta name="keywords" content="<?=$meta_key; ?>" />
 	<meta name="format-detection" content="telephone=no">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <meta name="googlebot" content="index, follow ">
     <meta name="bingbot" content="index, follow ">
     <meta name="YahooSeeker" content="Index,Follow" />
-    <link rel="canonical" href="https://www.hfs.in/"/>
+    <link rel="canonical" href="https://hfs.in/"/>
     <link rel="alternate" href="https://www.hfs.in/" hreflang="en-in"/>
 	<meta property="og:image" content="https://hfs.in/images/uploads/logo3.png"/>
-	<meta property="og:url" content="https://www.hfs.in" />
+	<meta property="og:url" content="https://hfs.in" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Small Business Loans | Hiranandani Financial Services | HFS" />
-    <meta property="og:description" content="Hassle Free Business loans from HFS. Quick Disbursal, Easy Documentation. No Guarantor Required. Low Interest Rate. Apply online." />
+    <meta property="og:description" content="Hassle Free Business loans from HFS a new age NBFC. Quick Disbursal, Easy Documentation. No Guarantor Required. Low Interest Rate" />
     	
 	<link href="images/favicon.ico" rel="icon" type="image/ico" />
 	<link href="https://hfs.in/pre1/jpreloader.css" media="screen" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@9.3.17/dist/sweetalert2.min.css">
-   <link rel="stylesheet" href="/css/ticker.css">
+   <!-- <link rel="stylesheet" href="/css/ticker.css">	-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="css/testimonial.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.transitions.css">
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+	<script> 
+$(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:1,
+        itemsDesktop:[1000,1],
+        itemsDesktopSmall:[979,1],
+        itemsTablet:[768,1],
+        pagination:true,
+        navigation:false,
+        navigationText:["",""],
+        slideSpeed:1000,
+        singleItem:true,
+        transitionStyle:"fade",
+        autoPlay:true
+    });
+});
+</script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144819872-1"></script>
         <script>
@@ -148,26 +175,8 @@ qp('track', 'ViewContent');
   "name" : "HFS - Business Loan, SME Loan, MSME Loan, Collateral Free Business Loan",
   "logo" : "https://hfs.in/images/uploads/logo3.png",
   "articleSection" : "HFS is a new age NBFC, focused on supporting the growth of Micro and Small enterprises in India. Our aim is to be a partner in their progress by providing customised financial solutions to this under-served segment in a seamless and transparent manner.",
-  "url" : "https://www.hfs.in/index.php"
+  "url" : "https://hfs.in/index.php"
 }
-
-</script>
-<style>
-.gptw {
-position: fixed;
-bottom:0;
-right: 0;
-z-index: 999;
-margin: 0px 10px 50px 0px;
-}
-
-</style>
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "ed3t55dyis");
 </script>
 </head>
 <body>
@@ -195,142 +204,119 @@ margin: 0px 10px 50px 0px;
 <section>
 <div class="home-banner head_mrgin">
 	<ul class="slider">
-	    	      <?php //if ($result->num_rows > 0) {
+	    	     <?php if ($result->num_rows > 0) {
                     // output data of each row
-                    //while($row = $result->fetch_assoc()) {
-                        //echo '<li>
-                    			//<img src="' .$row['desk_banner'].'" alt="HFCL Home banner" draggable="false" class="desk"/>
-                    			//<img src="' .$row['mobile_banner'].'" alt="HFCL Home banner" draggable="false" class="mob"/>
-                    			//<div class="caption">
-                    				//<div class="slide-txt firstslide">
-                    					//<h2>' .$row['cap_1'].'<br>' .$row['cap_2'].'<br>' .$row['cap_3'].'</h2>
-                    					//<!--<h4>STEP FORWARD <span>>></span></h4>"-->
-                    					//<h4>' .$row['cap_4'].'</h4>
-                    					//<a href="https://applynow.hfs.in/" target="_blank">Apply Now</a><br>
+                    while($row = $result->fetch_assoc()) {
+                        echo '<li>
+                    			<img src="' .$row['desk_banner'].'" alt="HFCL Home banner" draggable="false" class="desk"/>
+                    			<img src="' .$row['mobile_banner'].'" alt="HFCL Home banner" draggable="false" class="mob"/>
+                    			<div class="caption">
+                    				<div class="slide-txt firstslide">
+                    					<h2>' .$row['cap_1'].'<br>' .$row['cap_2'].'<br>' .$row['cap_3'].'</h2>
+                    					<!--<h4>STEP FORWARD <span>>></span></h4>"-->
+                    					<h4>' .$row['cap_4'].'</h4>
+                    					<a href="https://applynow.hfs.in/" target="_blank">Apply Now</a><br>
                     					
-                    				//</div>
-                    			//</div>
-                    			//<div class="caption_mob">
-                    			//	<div class="continer1">
-                    			//		<div class="left_cap">
-                    			//			<!--<h2>NO BUSINESS IS<br>SMALL BUSINESS</h2>-->
-                    			//			<h2>' .$row['cap_1'].'<br>' .$row['cap_2'].'<br>' .$row['cap_3'].'</h2>
-                    			//			<!--<h4>STEP FORWARD <span>>></span></h4>-->
-                    			//			<h4>' .$row['cap_4'].'</h4>
-                    			//		</div>
-                    			//		<div class="right_cap">	
-                    			//			<a href="https://applynow.hfs.in/enterMob" target="_blank">Apply Now</a><br>
-                    			//			
-                    			//		</div>
-                    			//	</div>
-                    			//</div>
-                    		//</li>';
-              //      }
-	    // } //else {
-			//	                    echo "";
-			//	                }
+                    				</div>
+                    			</div>
+                    			<div class="caption_mob">
+                    				<div class="continer1">
+                    					<div class="left_cap">
+                    						<!--<h2>NO BUSINESS IS<br>SMALL BUSINESS</h2>-->
+                    						<h2>' .$row['cap_1'].'<br>' .$row['cap_2'].'<br>' .$row['cap_3'].'</h2>
+                    						<!--<h4>STEP FORWARD <span>>></span></h4>-->
+                    						<h4>' .$row['cap_4'].'</h4>
+                    					</div>
+                    					<div class="right_cap">	
+                    						<a href="https://applynow.hfs.in/enterMob" target="_blank">Apply Now</a><br>
+                    						
+                    					</div>
+                    				</div>
+                    			</div>
+                    		</li>';
+                    }
+	     } else {
+				                    echo "";
+				                }
 		?>
 
-		<li>
-			<img src="images\hm-banner\Web-Banner-Get-a-loan-A.jpg" alt="HFCL Home banner" draggable="false" class="desk"/>
-			<img src="images\hm-banner\Web-Banner-Get-a-loan-Mob-Banner.jpg" alt="HFCL Home banner" draggable="false" class="mob"/>
-			<div class="caption">
-				<div class="slide-txt firstslide">
-					<h2>Take a leap for<br>your business needs!</h2>
-					<h4>STEP FORWARD <span>>></span></h4>
-					<a href="https://applynow.hfs.in" target="_blank">Apply Now</a><br>
-					<!-- <p>Your Time, Your Place</p> -->
-				</div>
-			</div>
-			<div class="caption_mob">
-				<div class="continer1">
-					<div class="left_cap">
-						<h2>Take a leap for<br>your business needs!</h2>
-						<h4>STEP FORWARD <span>>></span></h4>
-					</div>
-					<div class="right_cap">	
-						<a href="https://applynow.hfs.in" target="_blank">Apply Now</a><br>
-						<!-- <p>Your Time, Your Place</p> -->
-					</div>
-				</div>
-			</div>
-		</li>
+		<!--<li>-->
+		<!--	<img src="images/home-banner1.jpg" alt="HFCL Home banner" draggable="false" class="desk"/>-->
+		<!--	<img src="images/home-banner1-mob.jpg" alt="HFCL Home banner" draggable="false" class="mob"/>-->
+		<!--	<div class="caption">-->
+		<!--		<div class="slide-txt firstslide">-->
+		<!--			<h2>NO BUSINESS IS<br>SMALL BUSINESS</h2>-->
+		<!--			<h4>STEP FORWARD <span>>></span></h4>-->
+		<!--			<a href="book-our-visit.html" class="book_our_visit">Let’s meet</a><br>-->
+		<!--			<p>Your Time, Your Place</p>-->
+		<!--		</div>-->
+		<!--	</div>-->
+		<!--	<div class="caption_mob">-->
+		<!--		<div class="continer1">-->
+		<!--			<div class="left_cap">-->
+		<!--				<h2>NO BUSINESS IS<br>SMALL BUSINESS</h2>-->
+		<!--				<h4>STEP FORWARD <span>>></span></h4>-->
+		<!--			</div>-->
+		<!--			<div class="right_cap">	-->
+		<!--				<a href="book-our-visit.html" class="book_our_visit">Let’s meet</a><br>-->
+		<!--				<p>Your Time, Your Place</p>-->
+		<!--			</div>-->
+		<!--		</div>-->
+		<!--	</div>-->
+		<!--</li>-->
 		
-		<li>
-			<img src="images\hm-banner\Web-Banner-Hassle-free-Loan-A.jpg" alt="HFCL Home banner" draggable="false" class="desk"/>
-			<img src="images\hm-banner\Mob-Banner-Hassle-free-Loan.jpg" alt="HFCL Home banner" draggable="false" class="mob"/>
-			<div class="caption">
-				<div class="slide-txt firstslide">
-					<h2>Passion to<br>potential<br>is just one step </h2>
-					<h4>STEP FORWARD <span>>></span></h4>
-					<a href="https://applynow.hfs.in" target="_blank">Apply Now</a><br>
+		<!--<li>-->
+		<!--	<img src="images/home-banner2.jpg" alt="HFCL Home banner" draggable="false" class="desk"/>-->
+		<!--	<img src="images/home-banner2-mob.jpg" alt="HFCL Home banner" draggable="false" class="mob"/>-->
+		<!--	<div class="caption">-->
+		<!--		<div class="slide-txt firstslide">-->
+		<!--			<h2>Passion to<br>potential<br>is just one step </h2>-->
+		<!--			<h4>STEP FORWARD <span>>></span></h4>-->
+		<!--			<a href="book-our-visit.html" class="book_our_visit">Let’s meet</a><br>-->
 		<!--			<p>Your Time, Your Place</p>-->
-				</div>
-			</div>
-			<div class="caption_mob">
-				<div class="continer1">
-					<div class="left_cap">
-						<h2>Passion to potential<br>is just one step </h2>
-						<h4>STEP FORWARD <span>>></span></h4>
-					</div>
-					<div class="right_cap">	
-					<a href="https://applynow.hfs.in" target="_blank">Apply Now</a><br>
+		<!--		</div>-->
+		<!--	</div>-->
+		<!--	<div class="caption_mob">-->
+		<!--		<div class="continer1">-->
+		<!--			<div class="left_cap">-->
+		<!--				<h2>Passion to potential<br>is just one step </h2>-->
+		<!--				<h4>STEP FORWARD <span>>></span></h4>-->
+		<!--			</div>-->
+		<!--			<div class="right_cap">	-->
+		<!--				<a href="book-our-visit.html" class="book_our_visit">Let’s meet</a><br>-->
 		<!--				<p>Your Time, Your Place</p>-->
-					</div>
-				</div>
-			</div>
-		</li>
-		<li>
-			<img src="images\hm-banner\60-State-7-Branches-Web-Banner.jpg" alt="HFCL Home banner" draggable="false" class="desk"/>
-			<img src="images\hm-banner\60-State-7-Branches-Mobile-Banner.jpg" alt="HFCL Home banner" draggable="false" class="mob"/>
-			<!--<div class="caption">
-				<div class="slide-txt firstslide">
-					<h2>YET ANOTHER</h2>
-					<h4>STEP FORWARD <span>>></span></h4>
-					<a href="https://applynow.hfs.in" class="book_our_visit">Apply Now</a><br>-->
+		<!--			</div>-->
+		<!--		</div>-->
+		<!--	</div>-->
+		<!--</li>-->
+		<!--<li>-->
+		<!--	<img src="images/home-banner3.jpg" alt="HFCL Home banner" draggable="false" class="desk"/>-->
+		<!--	<img src="images/home-banner3-mob.jpg" alt="HFCL Home banner" draggable="false" class="mob"/>-->
+		<!--	<div class="caption">-->
+		<!--		<div class="slide-txt firstslide">-->
+		<!--			<h2>Dreams to reality<br> is just one step</h2>-->
+		<!--			<h4>STEP FORWARD <span>>></span></h4>-->
+		<!--			<a href="book-our-visit.html" class="book_our_visit">Let’s meet</a><br>-->
 		<!--			<p>Your Time, Your Place</p>-->
-				</div>
-			</div>
-			<div class="caption_mob">
-				<div class="continer1">
-					<div class="left_cap">
-						<h2>YET ANOTHER</h2>
-						<h4>STEP FORWARD <span>>></span></h4>
-					</div>
-					<div class="right_cap">	
-					<a href="https://applynow.hfs.in" target="_blank">Apply Now</a><br>
+		<!--		</div>-->
+		<!--	</div>-->
+		<!--	<div class="caption_mob">-->
+		<!--		<div class="continer1">-->
+		<!--			<div class="left_cap">-->
+		<!--				<h2>Dreams to reality<br>is just one step</h2>-->
+		<!--				<h4>STEP FORWARD <span>>></span></h4>-->
+		<!--			</div>-->
+		<!--			<div class="right_cap">	-->
+		<!--				<a href="book-our-visit.html" class="book_our_visit">Let’s meet</a><br>-->
 		<!--				<p>Your Time, Your Place</p>-->
-					</div>
-				</div>
-			</div>
-		</li>
-<!--		<li>
-			<img src="images\uploads\home\sliders\deskbanner.jpg" alt="HFCL Home banner" draggable="false" class="desk"/>
-			<img src="images\uploads\home\sliders\32BranchesMob1.jpg" alt="HFCL Home banner" draggable="false" class="mob"/>
-			<div class="caption">
-				<div class="slide-txt firstslide">
-					<h2>WE ARE GROWING</h2>
-					<h4>STEP FORWARD <span>>></span></h4>
-					<a href="https://hfs.in/locate-us.php" target="_blank">FIND LOCATION</a><br>
-		<!--			<p>Your Time, Your Place</p>--
-				</div>
-			</div>
-			<div class="caption_mob">
-				<div class="continer1">
-					<div class="left_cap">
-						<h2>WE ARE GROWING</h2>
-						<h4>STEP FORWARD <span>>></span></h4>
-					</div>
-					<div class="right_cap">	
-					<a href="https://hfs.in/locate-us.php" target="_blank">FIND LOCATION</a><br>
-		<!-				<p>Your Time, Your Place</p>--
-					</div>
-				</div>
-			</div>
-		</li>-->
+		<!--			</div>-->
+		<!--		</div>-->
+		<!--	</div>-->
+		<!--</li>-->
 	</ul>
 </div>
 </section>
+
 <section>
 <div class="home_txt">
 	<div class="continer1">
@@ -339,7 +325,7 @@ margin: 0px 10px 50px 0px;
 	</div>
 </div> 
 </section>
-<img class="gptw" src="/images/gptw.png"alt="Great Place to work"/>
+
 <section>
 <div class="home_sec_slide">
 	<div class="continer1">
@@ -500,7 +486,57 @@ margin: 0px 10px 50px 0px;
 	</div>
 </div>
 </section>
+<section>
+<div class="demo">
+        <div class="container">
+            <div class="row text-center">
+                <h1 class="heading-title"> Testimonial Style</h1>
+            </div>
 
+            <div class="row">
+                <div class="col-md-offset-3 col-md-6">
+                    <div id="testimonial-slider" class="owl-carousel">
+                        <div class="testimonial">
+                            <div class="pic">
+                                <img src="/images/testimonials/Janseva.png" alt=""/>
+                            </div>
+                            <h3 class="testimonial-title">
+                                Devanand Motiram<small><br>Janseva Doodh Dairy - Aurangabad</small>
+                            </h3>
+                            <p class="description">
+                                When I felt it was the right time to invest in my business. I decided to take a business expansion loan and approached HFS. My experience with them right from the time of my enquiry, to filling in the paperwork all the way up to disbursement was handled with expertise. Today, because of this business investment. I have been able to expand my customer base and have already started reaping the benefits.
+                            </p>
+                        </div>
+
+                        <div class="testimonial">
+                            <div class="pic">
+                                <img src="images/Sam-Revilter.jpg" alt=""/>
+                            </div>
+                            <h3 class="testimonial-title">
+                                kristiana<small>, Web Designer</small>
+                            </h3>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim diam, tempus vel ultricies viverra, luctus in elit. Aliquam tempus blandit velit, in pharetra ex volutpat a. Cras eu augue ac nisl tempor commodo.
+                            </p>
+                        </div>
+
+                        <div class="testimonial">
+                            <div class="pic">
+                                <img src="images/team4-large.jpg" alt=""/>
+                            </div>
+                            <h3 class="testimonial-title">
+                                Steve Thomas<small>, Web Developer</small>
+                            </h3>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam enim diam, tempus vel ultricies viverra, luctus in elit. Aliquam tempus blandit velit, in pharetra ex volutpat a. Cras eu augue ac nisl tempor commodo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <!--<section>
 <div class="check_eligi_homem">
 	<div class="continer1">
@@ -644,10 +680,10 @@ margin: 0px 10px 50px 0px;
     });
 </script>
 <script>$('#index').addClass('active');</script>
-<div class="ticker-wrap">
+<!--<div class="ticker-wrap">
 <div class="ticker">
-<div class="ticker__item"> <a href="https://hfs.in/enach-reg"style="padding:150px;text-decoration:none; color:#fff;" target="_blank">For eNACH Registration, click here</a>&nbsp;<a href="http://hfs.in/pdf/Emergency_Credit_Line_Guarantee_Scheme_(ECLGS).pdf" rel="noopener noreferrer" target="_blank" style="padding:175px;text-decoration:none; color:#fff;">Emergency Credit Line Guarantee Scheme (ECLGS). Click here. </a>           </div>
+<div class="ticker__item"> <a href="http://hfs.in/pdf/EMI_Moratorium_Facility.pdf"rel="noopener noreferrer" target="_blank" style="text-decoration:none; color:#fff;">Details of EMI Moratorium Facility. Click here. </a>  </div>
 </div>
-</div>
+</div> -->
 </body>
 </html>
